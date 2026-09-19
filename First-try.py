@@ -28,7 +28,4 @@ label.pack()
 
 
 root.mainloop()
-=======
-print("Hi")
-print("Beep Boop")
->>>>>>> 0b5f01cfb69ceedeb9a4f9c5f7001ca2466df4d4
+
