@@ -1,4 +1,5 @@
 import tkinter as tk
+
 from tkinter import *
 
 # opens a window
@@ -7,7 +8,7 @@ root=tk.Tk()
 root.geometry('1920x1080')
 
 
-image = PhotoImage(file="Smile.png")
+image = PhotoImage(file="captcha.png")
 image_label = tk.Label(root, image=image)
 image_label.pack()
 
@@ -18,3 +19,4 @@ label = tk.Label(root)
 label.pack()
 
 root.mainloop()
+
